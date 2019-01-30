@@ -7,7 +7,7 @@ Second=['KBP','LON',130]
 
 F=open('routes.csv','w')
 F.write=(First+Second)
-F.close 
+F.close()
 
 FileWithRoads=open('routes.csv')
 roads=FileWithRoads.readlines()
